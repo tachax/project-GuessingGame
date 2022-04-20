@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="facil.css">
+    <title>Nível Fácil</title>
+</head>
+
+<body>
+    <div class="card">
+        <h2>Nível Fácil</h2>
+
+        <h3>Será que você consegue acertar o número sorteado?</h3>
+
+        <div class="aposta">
+            <label for="aposta">Faça sua aposta: </label>
+            <input class="inserir" id="aposta" type="number" placeholder="digite um número">
+            <div>
+                <button class="inserir" onclick="apostar()">Apostar</button>
+            </div>
+        </div>
+
+        <p id="proximo"></p>
+        <p id="tentativas">Tentativas restantes: 3</p>
+    </div>
+</body>
+
+</html>
