@@ -48,7 +48,7 @@ function jogarNormal() {
 
     if (chute>=0 && chute<21) {
         if (numeroSecreto == chute) {
-            location.href = '../winner/winner.html'
+            location.href = '../winner/winner.html';
         } else if (numeroSecreto > chute) {
             i--;
             document.getElementById("resultado").innerText = "Você errou. O número secreto é maior que esse.";
@@ -76,8 +76,6 @@ function jogarDificil() {
             location.href = '../winner/winner.html';
         } else {
             location.href = '../gameOver/gameOver.html';
-            document.getElementById('numeroSorteado').innerText += numeroSecreto;
-            
         }
     } else {
         document.getElementById("resultado").innerText = "Esse número não está entre 0 e 20";
