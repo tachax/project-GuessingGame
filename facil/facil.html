@@ -6,25 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="facil.css">
+    <script src="../main.js" defer></script>
     <title>Nível Fácil</title>
 </head>
 
 <body>
     <div class="card">
         <h2>Nível Fácil</h2>
-
         <h3>Será que você consegue acertar o número sorteado?</h3>
 
         <div class="aposta">
             <label for="aposta">Faça sua aposta: </label>
             <input class="inserir" id="aposta" type="number" placeholder="digite um número">
             <div>
-                <button class="inserir" onclick="apostar()">Apostar</button>
+                <button class="inserir" onclick="jogarFacil()">Apostar</button>
             </div>
         </div>
 
-        <p id="proximo"></p>
-        <p id="tentativas">Tentativas restantes: 3</p>
+        <p id="resultado"></p>
+        <p id="tentativas">Tentativas restantes: 5</p>
     </div>
 </body>
 
