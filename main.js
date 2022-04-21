@@ -21,7 +21,7 @@ function jogarFacil() {
     let chute = document.getElementById("aposta").value;
     chute = parseInt(chute);
 
-    if (chute>=0 && chute<11) {
+    if (chute>=0 && chute<21) {
         if (numeroSecreto == chute) {
             location.href = '../winner/winner.html'
         } else if (numeroSecreto > chute) {
@@ -32,7 +32,7 @@ function jogarFacil() {
             document.getElementById("resultado").innerText = "Você errou. O número secreto é menor que esse.";
         }
     } else {
-        document.getElementById("resultado").innerText = "Esse número não está entre 0 e 10"
+        document.getElementById("resultado").innerText = "Esse número não está entre 0 e 20"
     }
     document.getElementById('tentativas').innerText = `Tentativas restantes: ${i}`
 
