@@ -13,7 +13,7 @@ function modoDificil() {
 }
 
 //JOGOS
-let numeroSecreto = Math.floor(Math.random()*10+1);
+let numeroSecreto = Math.floor(Math.random()*20+1);
 
 //jogar fácil
 let i = 5;
