@@ -46,7 +46,7 @@ function jogarNormal() {
     let chute = document.getElementById("aposta").value;
     chute = parseInt(chute);
 
-    if (chute>=0 && chute<11) {
+    if (chute>=0 && chute<21) {
         if (numeroSecreto == chute) {
             location.href = '../winner/winner.html'
         } else if (numeroSecreto > chute) {
@@ -57,7 +57,7 @@ function jogarNormal() {
             document.getElementById("resultado").innerText = "Você errou. O número secreto é menor que esse.";
         }
     } else {
-        document.getElementById("resultado").innerText = "Esse número não está entre 0 e 10"
+        document.getElementById("resultado").innerText = "Esse número não está entre 0 e 20"
     }
     document.getElementById('tentativas').innerText = `Tentativas restantes: ${i-2}`
 
@@ -71,14 +71,14 @@ function jogarDificil() {
     let chute = document.getElementById("aposta").value;
     chute = parseInt(chute);
 
-    if (chute>=0 && chute<11) {
+    if (chute>=0 && chute<21) {
         if (numeroSecreto == chute) {
             location.href = '../winner/winner.html'
         } else {
             location.href = '../gameOver/gameOver.html'
         }
     } else {
-        document.getElementById("resultado").innerText = "Esse número não está entre 0 e 10"
+        document.getElementById("resultado").innerText = "Esse número não está entre 0 e 20"
     }
     document.getElementById('tentativas').innerText = `Tentativas restantes: ${i}`
 }
