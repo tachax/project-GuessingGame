@@ -17,9 +17,7 @@ body {
     flex-direction: column;
     text-align: center;
     row-gap: 20px;
-    margin-top: 50px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin: auto;
 }
 
 .aposta {

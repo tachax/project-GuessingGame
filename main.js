@@ -1,5 +1,4 @@
 //MODOS DE JOGO
-
 //modo fácil
 function modoFacil() {
     location.href = '../facil/facil.html';
@@ -82,6 +81,4 @@ function jogarDificil() {
         document.getElementById("resultado").innerText = "Esse número não está entre 0 e 10"
     }
     document.getElementById('tentativas').innerText = `Tentativas restantes: ${i}`
-
 }
-console.log(numeroSecreto)
