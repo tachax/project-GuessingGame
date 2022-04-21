@@ -13,10 +13,10 @@ function modoDificil() {
 }
 
 //JOGOS
-let numeroSecreto = Math.floor(Math.random()*20+1);
+let numeroSecreto = Math.floor(Math.random()*21);
+let i = 5;
 
 //jogar fácil
-let i = 5;
 function jogarFacil() {
     let chute = document.getElementById("aposta").value;
     chute = parseInt(chute);
@@ -80,5 +80,5 @@ function jogarDificil() {
     } else {
         document.getElementById("resultado").innerText = "Esse número não está entre 0 e 20";
     }
-    document.getElementById('tentativas').innerText = `Tentativas restantes: ${i}`;
+    document.getElementById('tentativas').innerText = `Tentativas restantes: ${i-5}`;
 }
