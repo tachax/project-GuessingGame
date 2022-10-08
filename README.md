@@ -2,6 +2,8 @@
 
 Guessing game project. CPU draws a number and the player tries to guess it in certain attempts. Made with HTML, CSS and JavaScript. Code made in Portuguese, but user interfaces updated to English.
 
+<a href="https://guessinganumbergame.netlify.app/" target="_blank">Link to play</a>
+
 Imagens da interface:
 
 ![guess0](https://user-images.githubusercontent.com/98829238/194720143-32add627-775a-4e88-8da0-aff61d28a2ed.png)
