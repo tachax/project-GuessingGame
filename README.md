@@ -1,10 +1,10 @@
 # projeto-MarcoPolo
-Projeto de jogo de adivinha. CPU sorteia um número e o jogador tenta adivinhar em certas tentativas. Feito com HTML, CSS e JavaScript.
+Guessing game project. CPU draws a number and the player tries to guess it in certain attempts. Made with HTML, CSS and JavaScript. Code made in Portuguese, but user interfaces updated to English.
 
 Imagens da interface:
 
-![interface1](https://user-images.githubusercontent.com/98829238/165590394-dad2ba42-a061-49dc-a82e-91750f204b8e.jpg)
+![guess0](https://user-images.githubusercontent.com/98829238/194720143-32add627-775a-4e88-8da0-aff61d28a2ed.png)
 <br><br>
-![interface2](https://user-images.githubusercontent.com/98829238/165590430-6942fa68-205b-4b0d-a0c2-554ea57cf099.jpg)
+![guess1](https://user-images.githubusercontent.com/98829238/194720147-2598b28e-9a50-4fe4-836a-500584fbc628.png)
 <br><br>
-![interface3](https://user-images.githubusercontent.com/98829238/165590467-1b764580-6bb7-4b26-84ba-b79ce3727e7c.jpg)
+![guess3](https://user-images.githubusercontent.com/98829238/194720214-0455bed7-6ac9-40ab-960c-d73a1a909af7.png)
