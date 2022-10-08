@@ -1,4 +1,5 @@
-# projeto-MarcoPolo
+# project-GuessingGame
+
 Guessing game project. CPU draws a number and the player tries to guess it in certain attempts. Made with HTML, CSS and JavaScript. Code made in Portuguese, but user interfaces updated to English.
 
 Imagens da interface:
