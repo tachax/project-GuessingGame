@@ -26,15 +26,15 @@ function jogarFacil() {
             location.href = '../winner/winner.html';
         } else if (numeroSecreto > chute) {
             i--;
-            document.getElementById("resultado").innerText = "Você errou. O número secreto é maior que esse.";
+            document.getElementById("resultado").innerText = "You are wrong. The secret number is higher than that.";
         } else if (numeroSecreto < chute) {   
             i--;
-            document.getElementById("resultado").innerText = "Você errou. O número secreto é menor que esse.";
+            document.getElementById("resultado").innerText = "You are wrong. The secret number is less than that.";
         }
     } else {
-        document.getElementById("resultado").innerText = "Esse número não está entre 0 e 20";
+        document.getElementById("resultado").innerText = "This number is not between 0 and 20";
     }
-    document.getElementById('tentativas').innerText = `Tentativas restantes: ${i}`;
+    document.getElementById('tentativas').innerText = `Attempts left: ${i}`;
 
     if (i == 0) {
         location.href = '../gameOver/gameOver.html';
@@ -51,15 +51,15 @@ function jogarNormal() {
             location.href = '../winner/winner.html';
         } else if (numeroSecreto > chute) {
             i--;
-            document.getElementById("resultado").innerText = "Você errou. O número secreto é maior que esse.";
+            document.getElementById("resultado").innerText = "You are wrong. The secret number is higher than that.";
         } else if (numeroSecreto < chute) {   
             i--;
-            document.getElementById("resultado").innerText = "Você errou. O número secreto é menor que esse.";
+            document.getElementById("resultado").innerText = "You are wrong. The secret number is less than that.";
         }
     } else {
-        document.getElementById("resultado").innerText = "Esse número não está entre 0 e 20";
+        document.getElementById("resultado").innerText = "This number is not between 0 and 20";
     }
-    document.getElementById('tentativas').innerText = `Tentativas restantes: ${i-2}`;
+    document.getElementById('tentativas').innerText = `Attempts left: ${i-2}`;
 
     if (i == 2) {
         location.href = '../gameOver/gameOver.html';
@@ -78,7 +78,7 @@ function jogarDificil() {
             location.href = '../gameOver/gameOver.html';
         }
     } else {
-        document.getElementById("resultado").innerText = "Esse número não está entre 0 e 20";
+        document.getElementById("resultado").innerText = "This number is not between 0 and 20";
     }
-    document.getElementById('tentativas').innerText = `Tentativas restantes: ${i-5}`;
+    document.getElementById('tentativas').innerText = `Attempts left: ${i-5}`;
 }
